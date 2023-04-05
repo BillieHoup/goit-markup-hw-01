@@ -9,7 +9,7 @@ body {
   background-color:  #FFFFFF;
 }
 
-root {
+:root {
   --main-tittle-color: #fff;
   --main-text-color: #2e2f42;
   --
@@ -30,7 +30,7 @@ root {
 .header-info {
 }
 .header-link-one {
-  font-family: "Raleway", sans-serif
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -42,15 +42,7 @@ root {
 }
 
 .header-link-two {
-  font-family: "Raleway", sans-serif
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #2e2f42;
+color: #2e2f42;
 
 }
 .header-items-link {
@@ -89,14 +81,30 @@ root {
   color: #434455;
 }
 
+.header-mail-link:hover,
+.header-mail-link:focus {
+  color: #404bbf;
+}
 
-.header-tel {
+.header-adress {
+  font-style: normal;
+}
+
+.header-tel-link {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
+
+.header-tel-link:hover,
+.header-tel-link:focus {
+  color: #404bbf;
+}
+
+
 /* --------------Hero-------------- */
 .hero-title {
   font-size: 56px;
