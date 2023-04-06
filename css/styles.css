@@ -72,7 +72,7 @@ color: #2e2f42;
 }
 
 
-.header-mail-link {
+.header-mail {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -81,8 +81,8 @@ color: #2e2f42;
   color: #434455;
 }
 
-.header-mail-link:hover,
-.header-mail-link:focus {
+.header-mail:hover,
+.header-mail:focus {
   color: #404bbf;
 }
 
@@ -90,7 +90,7 @@ color: #2e2f42;
   font-style: normal;
 }
 
-.header-tel-link {
+.header-tel {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -99,8 +99,8 @@ color: #2e2f42;
   color: #434455;
 }
 
-.header-tel-link:hover,
-.header-tel-link:focus {
+.header-tel:hover,
+.header-tel:focus {
   color: #404bbf;
 }
 
