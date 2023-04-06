@@ -95,16 +95,16 @@ color: #2e2f42;
 
 .hero-section {
   background-color:  #2e2f42;
-  
+
 }
 
-.hero-title {
+.hero-tittle {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  background-color: #2e2f42;
   color: #ffffff;
+
 }
 .hero-btn {
   font-family: inherit;
@@ -119,7 +119,7 @@ color: #2e2f42;
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: #404BBF ;
+  background-color: #404BBF;
 }
 
 /* --------------About-------------- */
@@ -226,6 +226,3 @@ h3 {
 
   color: #2e2f42;
 }
- li {
-  display: inline;
- }
