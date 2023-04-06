@@ -123,7 +123,12 @@ color: #2e2f42;
 }
 
 /* --------------About-------------- */
+
+.about-section {
+  
+}
 .about-title {
+
 }
 .about-list {
 }
@@ -132,9 +137,8 @@ color: #2e2f42;
 .about-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-
   color: #2e2f42;
 }
 .about-decription {
@@ -226,3 +230,6 @@ h3 {
 
   color: #2e2f42;
 }
+
+
+
