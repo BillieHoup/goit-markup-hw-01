@@ -171,10 +171,13 @@ color: #2e2f42;
 }
 /* --------------Team-------------- */
 .team {
+  background-color: #F4F4FD;
 }
 .team-title {
 }
 .team-list {
+  text-align: center ;
+  background-color: #FFFFFF
 
 }
 .team-items {
