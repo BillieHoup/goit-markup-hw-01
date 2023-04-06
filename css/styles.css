@@ -27,9 +27,9 @@ body {
 
 .header {
 }
-.header-info {
+.header-navigation {
 }
-.header-link-one {
+.header-logo-one {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -41,7 +41,7 @@ body {
   color: #4d5ae5;
 }
 
-.header-link-two {
+.header-logo-two {
 color: #2e2f42;
 
 }
