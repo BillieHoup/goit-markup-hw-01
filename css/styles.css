@@ -173,10 +173,11 @@ color: #2e2f42;
 .team {
   background-color: #F4F4FD;
 }
-.team-title {
+.team-tittle {
+    text-align: center ;
 }
 .team-list {
-  text-align: center ;
+
   background-color: #FFFFFF
 
 }
