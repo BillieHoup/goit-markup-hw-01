@@ -127,9 +127,11 @@ color: #2e2f42;
 .about-section {
   
 }
-.about-title {
 
+.about-hidden {
+  visibility: hidden;
 }
+
 .about-list {
 }
 .about-item {
