@@ -178,7 +178,7 @@ color: #2e2f42;
 }
 .team-list {
 
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
 
 }
 .team-items {
@@ -186,30 +186,15 @@ color: #2e2f42;
 }
 /* --------------Footer-------------- */
 .footer {
-
-}
-.footer-link-one {
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
+ background-color: #2e2f42;
 }
 
-.footer-link-two {
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #2e2f42;
+.footer-logo-two {
+  color: #f4f4fd;
 }
+
 .footer-decription {
+  color: #f4f4fd;
 }
 
 /* --------------H-------------- */
