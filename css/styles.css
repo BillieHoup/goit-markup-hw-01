@@ -146,9 +146,11 @@ padding-bottom:290px;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 48px;
 
 }
 .hero-btn {
+  margin-top: 120px;
   padding: 16px 32px;
   font-family: inherit;
   font-weight: 500;
@@ -157,9 +159,9 @@ padding-bottom:290px;
   letter-spacing: 0.04em;
   color: var(--main-tittle-color);
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
   background-color: #4D5AE5;
-  display:block;
-Margin: 0 auto;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
@@ -226,6 +228,7 @@ padding-top:120px;
 }
 .examples-items {
   background-color: #FFFFFF;
+}
 
 /* --------------Team-------------- */
 .team {
@@ -235,7 +238,7 @@ padding-top:120px;
     background-color: #F4F4FD;
     padding-bottom: 120px;
 }
-}
+
 .team-tittle {
   font-weight: 700;
   font-size: 36px;
@@ -244,6 +247,7 @@ padding-top:120px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  padding-bottom: 70px ;
   }
 .team-list {
   display: flex;
@@ -302,7 +306,11 @@ h3 {
 .portfolio-section {
 }
 .portfolio-tittle {
-
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:  #2e2f42;
 }
 
 .list-btn {
@@ -325,6 +333,7 @@ h3 {
   border: 1px solid #E7E9FC;
 border-radius: 4px;
 padding: 12px 24px;
+}
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -332,14 +341,6 @@ padding: 12px 24px;
   background-color: #404BBF;
 }
 
-.portfolio-tittle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color:  #2e2f42;
-
-}
 
 .portfolio-p {
   font-size: 16px;
