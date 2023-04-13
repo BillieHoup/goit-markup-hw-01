@@ -92,6 +92,8 @@ margin-right: 75px;
 .header-list {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-items {
   font-weight: 500;
@@ -171,6 +173,10 @@ border-radius: 4px;
   background-color: #404BBF;
 }
 
+.hr {
+  color: #E7E9FC; 
+  border-bottom: 1px solid #E7E9FC;
+}
 /* --------------About-------------- */
 
 .about-section {
@@ -255,13 +261,16 @@ padding-top:120px;
 }
 .team-items {
   background-color: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+
 }
 /* --------------Footer----------- */
 .footer {
   background: #2E2F42;
   padding: 100px 185px 100px;
 }
-}
+
 
 .footer-logo-two {
   color: #f4f4fd;
@@ -311,6 +320,7 @@ h3 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:  #2e2f42;
+    
 }
 
 .list-btn {
@@ -343,6 +353,7 @@ padding: 12px 24px;
 
 
 .portfolio-p {
+  
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -352,7 +363,15 @@ padding: 12px 24px;
 
 
 .portfolio-photo {
+padding-left: 100px;
+padding-right: 100px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 24px;
+}
+
+.portfolio-images {
+background: #FFFFFF;
+border: 1px solid #E7E9FC;
 }
