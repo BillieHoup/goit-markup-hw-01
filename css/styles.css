@@ -132,15 +132,17 @@ margin-left:330px;
 /* --------------Hero-------------- */
 
 .hero-section {
-  background-color:  #2e2f42;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-grow: 1;
 padding-top: 190px;
 padding-bottom:290px;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-1.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
-
 .hero-tittle {
 
   font-size: 56px;
@@ -163,9 +165,10 @@ padding-bottom:290px;
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  background-color: #4D5AE5;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+  background: #4D5AE5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
 }
 
 .hero-btn:hover,
@@ -200,6 +203,8 @@ padding-top:120px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: flex;
+justify-content: center;
 }
 .about-decription {
   font-weight: 400;
@@ -263,14 +268,50 @@ padding-top:120px;
   background-color: #FFFFFF;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
+text-align: center;
+
+/*------------Workers----------*/
+.workers-social-list {
+  margin-top: 8px;
+  margin-bottom:32px;
+  display: flex;
+  justify-content:center;
+  gap:24px;
+}
+.workers-social-item {
+
+}
+
+.worker-social-link {
+}
+
+.worker-social-link:is()
+{
+}
+
+
+.workers-social-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #404BBF;
+  border-radius: 50%;
+}
 
 }
 /* --------------Footer----------- */
 .footer {
   background: #2E2F42;
-  padding: 100px 185px 100px;
+  
+  display: flex;
+padding-left: 150px;
+padding-top: 90px;
+padding-bottom: 110px;
 }
 
+.footer-p {
+  color: #f4f4fd;
+  padding-left: 120px;
+}
 
 .footer-logo-two {
   color: #f4f4fd;
@@ -280,7 +321,12 @@ border-radius: 0px 0px 4px 4px;
   padding-top: 20px;
   color: #f4f4fd;
   width: 264px;
-height: 72px;
+  height: 72px;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
 }
 
 /* --------------H-------------- */
@@ -363,8 +409,8 @@ padding: 12px 24px;
 
 
 .portfolio-photo {
-padding-left: 100px;
-padding-right: 100px;
+/* padding-left: 150px;
+padding-right: 150px; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -372,6 +418,13 @@ padding-right: 100px;
 }
 
 .portfolio-images {
-background: #FFFFFF;
+
+}
+
+.portfolio-border {
+
+background: #ffffff; 
+  width: 360px;
+height: 420px;
 border: 1px solid #E7E9FC;
 }
