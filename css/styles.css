@@ -15,10 +15,6 @@ body {
   --
 }
 
-.img {
-  display: block;
-}
-
 h1, h2, h3, h4, h5, p {
   margin: 0;
 }
@@ -28,7 +24,7 @@ ul {
   padding: 0;
 }
 
-.img {
+img {
   display: block;
 }
 
@@ -43,7 +39,7 @@ ul {
 .container {
   width: 1158px;
   margin: 0 auto;
-  
+  padding: 0 15px 0 15px;
 }
 
 /* --------------Header-------------- */
@@ -54,6 +50,7 @@ ul {
 .header-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navigation {
@@ -74,8 +71,7 @@ ul {
 
 .header-logo-two {
 color: #2e2f42;
-margin-right: 75px;
-
+margin-right: 76px;
 }
 .header-items-link {
   font-weight: 500;
@@ -124,6 +120,7 @@ margin-right: 75px;
 
 .header-adress {
   font-style: normal;
+  padding: 24px 0 24px;
 }
 
 .header-flex {
