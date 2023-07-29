@@ -51,6 +51,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+  padding: 24px 0 24px;
 }
 
 .header-navigation {
@@ -89,8 +90,6 @@ color: #2e2f42;
 .header-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header-items {
   font-weight: 500;
@@ -142,6 +141,7 @@ padding: 188px 0 188px;
 }
 .hero-tittle {
   font-size: 56px;
+  /*псує текст*/
   max-width: 496px;
   line-height: 1.07;
   text-align: center;
