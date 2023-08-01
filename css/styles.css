@@ -342,9 +342,7 @@ text-align: center;
 .footer {
   background: #2E2F42;
   display: flex;
-padding-left: 150px;
-padding-top: 90px;
-padding-bottom: 110px;
+  padding: 100px 0; 
 }
 
 .footer-p {
@@ -369,7 +367,7 @@ padding-bottom: 110px;
 }
 
 .footer-decription {
-  padding-top: 20px;
+  margin-bottom: 16px;
   color: #f4f4fd;
   width: 264px;
   height: 72px;
@@ -397,6 +395,9 @@ padding-bottom: 110px;
   
 }
 
+. footer-horizontal {
+  display: inline-block; 
+}
 
 .footer-social-link {
   display: flex;
