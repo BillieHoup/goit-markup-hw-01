@@ -39,8 +39,7 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;  
+  padding: 0 15px;
 }
 
 /* --------------Header-------------- */
@@ -210,10 +209,7 @@ padding: 120px 0 120px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  /* display: flex; */
-  margin-top: 8px;
   margin-bottom: 8px;
-  /* justify-content: center; */
 }
 
 .about-decription {
