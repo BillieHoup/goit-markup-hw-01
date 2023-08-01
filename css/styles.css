@@ -361,7 +361,7 @@ text-align: center;
   text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
 }
 
 .footer-logo-one span {
@@ -451,6 +451,7 @@ h3 {
 /*-------PORTFOLIO------------*/
 
 .portfolio-section {
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 .portfolio-tittle {
@@ -470,6 +471,13 @@ h3 {
     justify-content: center;
     padding-bottom: 70px;
 
+}
+
+.portfolio-list {
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
 }
 
 .portfolio-btn {
