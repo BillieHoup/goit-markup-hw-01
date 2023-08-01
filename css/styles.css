@@ -39,7 +39,8 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px 0 15px;
+  /* padding-left: 15px;
+  padding-right: 15px;   */
 }
 
 /* --------------Header-------------- */
@@ -80,6 +81,7 @@ color: #2e2f42;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  padding: 24px 0 24px;
 }
 
 .header-items-link:hover,
