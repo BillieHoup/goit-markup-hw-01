@@ -469,15 +469,13 @@ h3 {
     display: flex;
     gap: 24px;
     justify-content: center;
-    padding-bottom: 70px;
-
+    margin-bottom: 72px
 }
 
 .portfolio-list {
   gap: 24px;
   display: flex;
   justify-content: center;
-  margin-bottom: 72px;
 }
 
 .portfolio-btn {
@@ -498,6 +496,7 @@ padding: 12px 24px;
 .portfolio-btn:focus {
   color: #F4F4FD;
   background-color: #404BBF;
+  border: 1px solid transparent;
 }
 
 
