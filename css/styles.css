@@ -202,6 +202,7 @@ padding: 120px 0 120px;
 }
 .about-item {
   flex-basis: calc((100% - 72px) / 4);
+  margin: 8px;
 }
 .about-subtitle {
   font-weight: 500;
@@ -209,7 +210,6 @@ padding: 120px 0 120px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 
 .about-decription {
@@ -220,10 +220,8 @@ padding: 120px 0 120px;
   color: #434455;
 }
 
-.about-link {
-
-  /* background-color: #F4F4FD; */
-}
+  .about-link {
+  }
 
 .about-img {
   /* width: 264px;
