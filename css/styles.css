@@ -7,7 +7,7 @@ body {
 
   color: #434455;
   background-color:  #FFFFFF;
-} 
+}
 
 :root {
   --main-tittle-color: #fff;
@@ -46,12 +46,13 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0 24px;
 }
 
 .header-container {
   display: flex;
   align-items: center;
-  padding: 24px 0 24px;
+
 }
 
 .header-navigation {
@@ -80,6 +81,7 @@ color: #2e2f42;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  padding: 24px 0 24px;
 }
 
 .header-items-link:hover,
@@ -274,6 +276,7 @@ padding: 120px 0 120px;
 .team {
   justify-content: center;
   display: flex;
+    padding-top: 110px;
     background-color: #F4F4FD;
     padding: 120px 0 120px;
 }
