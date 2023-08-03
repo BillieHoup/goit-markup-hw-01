@@ -175,7 +175,7 @@ padding: 120px 0 120px;
   flex-basis: calc((100% - 72px) / 4);
 }
 .about-subtitle {
-  margin-top: 8px;
+  margin-top: 0;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -262,29 +262,36 @@ text-align: center;
 }
 .team-container {
   padding: 32px 0;
-};
+}
 /*------------Workers----------*/
 .workers-social-list {
-  margin-top: 8px;
-  margin-bottom:32px;
   display: flex;
-  gap:16px;
+  gap: 24px;
   justify-content:center;
 }
+
 .workers-social-item {
 }
+
 .worker-social-link {
+  display: block;
 }
+
 .worker-social-link:is()
 {
 }
+
 .team-center {
-  
 text-align: center;
 }
+
 .workers-social-icon {
-  /* width: 40px;
-  height: 40px; */
+  background-color: #404BBF;
+  width: 40px;
+  height: 40px;
+    display: flex; 
+justify-content: center;
+gap: 24px;
   background-color: #404BBF;
   border-radius: 50%;
 }
@@ -317,7 +324,6 @@ text-align: center;
   color: #f4f4fd;
 }
 .footer-decription {
-  margin-bottom: 16px;
   color: #f4f4fd;
   width: 264px;
   height: 72px;
