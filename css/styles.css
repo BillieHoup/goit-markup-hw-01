@@ -343,9 +343,7 @@ text-align: center;
   padding: 100px 0;
 }
 
-.footer-container {
-  display: flex;
-}
+
 
 .footer-p {
   color: #f4f4fd;  
@@ -368,9 +366,12 @@ text-align: center;
 .footer-logo-one span {
   color: #f4f4fd;
 }
+.footer-container {
+  display: flex;
+}
 
 .footer-decription {
-  margin-right: 120px;
+
   color: #f4f4fd;
   width: 264px;
   height: 72px;
