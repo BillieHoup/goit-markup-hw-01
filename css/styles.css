@@ -258,6 +258,7 @@ padding: 120px 0 120px;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
 text-align: center;
+  flex-basis: calc((100% - 72px) / 4);
 }
 .team-container {
   padding: 32px 0;
@@ -292,7 +293,6 @@ text-align: center;
 /* --------------Footer----------- */
 .footer {
   background: #2E2F42;
-  display: flex;
   padding: 100px 0; 
 }
 
@@ -324,10 +324,11 @@ text-align: center;
 }
 .footer-icon {
   display: block;
+  margin-right: 76px;
 }
 .footer-social-list {
-  padding-top:15px;
-  padding-left: 120px;
+  margin-top:15px;
+  margin-left: 120px;
   display: flex;
   justify-content:center;
   gap:16px;
@@ -357,6 +358,12 @@ text-align: center;
 .footer-social-link:is(:hover, :focus) .footer-social-icon{
  fill:#434455;
 }
+
+.footer-container {
+display: flex;
+}
+
+
 /* --------------H-------------- */
 h1 {
   font-weight: 700;
