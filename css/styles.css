@@ -36,7 +36,6 @@ img {
 /* --------------Header-------------- */
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0 24px;
 }
 .header-container {
   display: flex;
@@ -68,6 +67,7 @@ color: #2e2f42;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   padding: 24px 0 24px;
+  display: block;
 }
 .header-items-link:hover,
 .header-items-link:focus {
