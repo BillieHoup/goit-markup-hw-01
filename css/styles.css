@@ -356,6 +356,13 @@ img {
   margin-bottom: 72px;
 }
 
+.customers-list {
+  display: flex;
+  gap: 24px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .customers-social-link {
   display: flex;
   justify-content: center;
@@ -368,13 +375,16 @@ img {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  color: #8e8f99;
 }
 
-.customer-social-icon {
+.customers-social-link:hover {
+  border-color: #404bbf;
+  fill: #404bbf;
 }
 
-.customers-social-link:is(:hover, :focus) .footer-social-icon {
-  fill: var(--main-hover-color);
+.customers-social-icon {
+  fill: currentColor;
 }
 
 .customers-block {
