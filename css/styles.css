@@ -91,6 +91,7 @@ img {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+  width: 100%;
 }
 
 .header-items-link:hover,
@@ -470,6 +471,7 @@ h3 {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .portfolio-photo {
   /* padding-left: 150px;
 padding-right: 150px; */
@@ -481,16 +483,40 @@ padding-right: 150px; */
 }
 .portfolio-images {
 }
+
 .portfolio-border {
   background: #ffffff;
   flex-basis: calc((100% - 72px) / 4);
 }
 
+.portfolio-div {
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-border:hover .portfolio-cover {
+  transform: translateY(0);
+}
 .portfolio-item-name {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
+.portfolio-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: #f4f4fd;
+  background-color: #4d5ae5;
+  height: 100%;
+  padding: 32px;
+  transform: translateY(100%);
+  transition: transform 250ms ease;
+}
+
 /*----------------Customers---------*/
 .customers-section {
   padding-top: 140px;
