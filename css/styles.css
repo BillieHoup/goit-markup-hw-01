@@ -314,9 +314,6 @@ img {
   transition: background-color;
 }
 
-.worker-social-link:is() {
-}
-
 .team-center {
   text-align: center;
 }
@@ -361,6 +358,7 @@ img {
   color: #f4f4fd;
   width: 264px;
   height: 72px;
+  margin-right: 120px;
 }
 .footer-icon {
   display: block;
@@ -398,6 +396,7 @@ img {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 /* --------------H-------------- */
