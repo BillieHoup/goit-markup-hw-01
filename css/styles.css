@@ -345,9 +345,17 @@ img {
 }
 /*----------------Customers---------*/
 .customers-section {
-  padding-top: 140px;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
+
+.customers-tittle {
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
 .customers-social-link {
   display: flex;
   justify-content: center;
