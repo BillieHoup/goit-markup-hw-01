@@ -343,6 +343,7 @@ img {
 .worker-social-link:focus {
   background-color: #404bbf;
 }
+
 /*----------------Customers---------*/
 .customers-section {
   padding-top: 120px;
@@ -378,7 +379,12 @@ img {
   color: #8e8f99;
 }
 
-.customers-social-link:hover {
+/* .customers-social-link:hover {
+  border-color: #404bbf;
+  fill: #404bbf;
+} */
+
+.customers-social-link:is(:hover, :focus) .about-link {
   border-color: #404bbf;
   fill: #404bbf;
 }
