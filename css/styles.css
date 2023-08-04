@@ -379,17 +379,10 @@ img {
   color: #8e8f99;
 }
 
-/* .customers-social-link:hover {
+.customers-social-link:hover,
+.customers-social-link:focus {
   border-color: #404bbf;
-  fill: #404bbf;
-} */
-
-.customers-social-link:is(:hover, :focus) .about-link {
-  border-color: #404bbf;
-  fill: #404bbf;
-}
-
-.customers-social-icon {
+  color: #404bbf;
   fill: currentColor;
 }
 
