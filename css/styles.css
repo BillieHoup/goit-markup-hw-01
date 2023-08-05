@@ -818,8 +818,17 @@ padding-right: 150px; */
   margin-bottom: 24px;
 }
 
-.modal-policy-input {
+/* .modal-input:focus {
+border-color: #4D5AE5;
+} */
 
+.modal-user-input:focus + .modal-form-icon {
+  fill: #4D5AE5;
+}
+
+
+.modal-user-input:focus {
+  border-color: #4D5AE5;
 }
 
 .modal-label {
