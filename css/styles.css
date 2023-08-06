@@ -858,6 +858,10 @@ padding-right: 150px; */
 
 }
 
+.user-privacy-link {
+  color:   #4d5ae5; 
+}
+
 .modal-policy-input:checked .modal-span {
   background-color: #404bbf;
   border: none;
