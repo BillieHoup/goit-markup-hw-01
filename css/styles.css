@@ -859,11 +859,11 @@ padding-right: 150px; */
   fill: #F4F4FD;
 }
 
-.user-privacy:checked + .modal-policy-input span {
+.modal-policy-input:checked + .modal-policy-input span {
   background-color: #404bbf;
   border: none;
   fill:#F4F4FD;
-  
+
 }
 
 .modal-btn {
