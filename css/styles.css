@@ -841,18 +841,6 @@ padding-right: 150px; */
   color: #8e8f99;
 }
 
-.modal-span {
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-
-}
 
 .input:checked span {
   background-color: #404bbf;
@@ -877,6 +865,22 @@ padding-right: 150px; */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
 
+}
+
+.modal-policy-input {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+
+.modal-policy-input span {
+  
 }
 
 .is-hidden {
