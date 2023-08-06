@@ -852,6 +852,7 @@ padding-right: 150px; */
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .modal-policy-icon {
@@ -862,11 +863,12 @@ padding-right: 150px; */
   color:   #4d5ae5; 
 }
 
-.modal-policy-input:checked .modal-span {
+.modal-policy-input:checked + .modal-label span {
   background-color: #404bbf;
   border: none;
   fill: #000098;
 }
+
 
 .form-user {
 
