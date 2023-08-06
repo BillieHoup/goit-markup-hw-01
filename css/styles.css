@@ -858,7 +858,7 @@ padding-right: 150px; */
 
 }
 
-.modal-label:checked .modal-span {
+.modal-policy-input:checked .modal-span {
   background-color: #404bbf;
   border: none;
   fill: #000098;
