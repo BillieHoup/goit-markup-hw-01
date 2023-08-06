@@ -854,7 +854,7 @@ padding-right: 150px; */
   fill: transparent;
 }
 
-.input:checked span {
+.modal-policy-input:checked span {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
