@@ -866,7 +866,7 @@ padding-right: 150px; */
 .modal-policy-input:checked + .modal-label span {
   background-color: #404bbf;
   border: none;
-  fill: #000098;
+  fill: #F4F4FD;
 }
 
 
@@ -903,6 +903,10 @@ padding-right: 150px; */
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+.comment-modal {
+  margin-bottom: 16px;
 }
 
 .is-hidden {
