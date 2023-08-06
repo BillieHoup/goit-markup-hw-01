@@ -766,6 +766,7 @@ padding-right: 150px; */
 }
 
 .modal-form {
+  margin-bottom: 8px; 
 }
 
 .modal-input {
