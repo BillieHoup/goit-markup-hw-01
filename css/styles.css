@@ -854,16 +854,17 @@ padding-right: 150px; */
   fill: transparent;
 }
 
-.modal-policy-input:checked .modal-span {
-  background-color: #404bbf;
-  border: none;
-  fill: #F4F4FD;
+.modal-policy-icon {
+
 }
 
-.modal-policy-input:checked + .modal-policy-input span {
+.modal-label:checked .modal-span {
   background-color: #404bbf;
   border: none;
-  fill:#F4F4FD;
+  fill: #000098;
+}
+
+.form-user {
 
 }
 
